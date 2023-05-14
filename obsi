@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# read environment variables
+source obsi_config
+
+cd ${REPO_DIR}
+${GIT} pull --rebase
+${GIT} add .
+${GIT} commit -m "${HOSTNAME} `date +%Y%m%d%H%M%S`"
+${GIT} push ${REPO_LINK}
+${GIT} pull --rebase
+${GIT} push
