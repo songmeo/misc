@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # get openai key from secret file
-source openai_config
+source $OPENAI_CONFIG_PATH 
 
 # read the prompt from argument
 prompt="$1"
