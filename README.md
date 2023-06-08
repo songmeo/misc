@@ -1,8 +1,11 @@
 ### tiny scripts for my workflow
 
 
-obsi 230515 (after roughly 1 year of on-and-off writing)
-![](https://github.com/songmeo/misc/assets/41433569/c7afd139-a10f-4fd3-b078-fef850572f52)
+obsi graph view:
+
+230515 (after 1 year of sporadic writing)
+
+<img src="/progress/230515.png" width="25%" height="25%">
 
 openai_config:
 ```bash
@@ -18,4 +21,4 @@ HOSTNAME=<CURRENT_HOST_NAME>
 GIT=`which git`
 ```
 
-#todo: I need a better synchronization system.
+#todo: I need a better synchronization system. try sycnthing?
