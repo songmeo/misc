@@ -1,11 +1,12 @@
 ### tiny scripts for my workflow
 
-
-obsi graph view:
-
 230515 (after 1 year of sporadic writing)
 
 <img src="/progress/230515.png" width="25%" height="25%">
+
+230615 (the links are getting thicker)
+
+<img src="/progress/230615.png" width="25%" height="25%">
 
 openai_config:
 ```bash
